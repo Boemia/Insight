@@ -130,7 +130,7 @@ button:hover{
     line-height: 25px;
 }
 
-.entradas{
+.entrar{
     width: 100%;
     position: absolute;
     top: 50%;
@@ -139,22 +139,13 @@ button:hover{
     color: white;
 }
 
-.entradas{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: white;
-
-}
-
-.entradas h1{
+.entrar h1{
     font-size: 50px;
     margin-top: 80px;
 }
 
 .registrar{
+    margin-top: 60px;
     width: 100%;
     position: absolute;
     top: 50%;
@@ -166,4 +157,33 @@ button:hover{
 .registrar h1{
     font-size: 50px;
     margin-top: 80px;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 15px;
+  margin: 15px 0 22px 0;
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.742);
+  background: transparent;
+  color: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color:transparent;
+  border: 2px solid rgba(134, 0, 157, 0.742);
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
 }
